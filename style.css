@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://github.com/Aishwarya-Shanmugam/Day-20-1/blob/main/cat.jpeg?raw=true);
+    height: 1cm;
+    stroke-width: 2cm;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.jokeBox {
+    width: 75vmin;
+    height: 35vmin;
+    padding: 50px 40px;
+    background-color: #f3d343b5;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    border: 2.5px solid black;
+}
+span {
+
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+p {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: 35px;
+    max-width: 30px 0;
+    opacity: 0.5;
+}
+
+.fade {
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.btn {
+    display:block;
+    background-color: #f73d25;
+    color: #fff;
+    border : 2.5px solid #7cf32c;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 25px;
+    cursor: pointer;
+    margin: 15px auto;
+}
+
+.btn:hover {
+    background-color: #7cf32c;
+    color: #fff;
+    border: 2.5px solid #f73d25;
+}
